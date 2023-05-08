@@ -31,6 +31,16 @@ body{
    border-radius: 3px;
 }
 
+.content-header1 li{
+    display: inline;
+    margin-left: 10px;
+}
+
+.content-header1 a{
+    color: #fff;
+    text-decoration: none;
+}
+
 /* FINE HEADER */
 
 /* MAIN */
@@ -188,16 +198,16 @@ body{
     font-size: 1rem;
 }
 
-.content-section5-1{
-    margin: 30px 0;
-}
-
 .content-section5-1 i{
     margin: 0 10px;
     border: 0.8px solid #fff;
     padding: 5px 5px;
     border-radius: 100%;
     font-size: 0.7rem;
+}
+
+.content-section5-1 .fa-facebook-f{
+    padding: 5px 7px;
 }
 
 .content-section5 a{
