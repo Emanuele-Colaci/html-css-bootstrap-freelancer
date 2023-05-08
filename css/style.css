@@ -127,6 +127,45 @@ body{
     align-items: center;
 }
 
+.button-section3{
+    background-color: transparent;
+    border: 0.7px solid #fff;
+    border-radius: 10px;
+    color: #fff;
+    width: 34%;
+    padding: 9px 0px;
+}
+
 /* FINE SECTION 3 */
 
 /* SECTION 4 */
+
+.content-section4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-section4 ul li{
+    list-style-type: none;
+    border-bottom: 0.4px solid grey;
+    color: #5b6976;
+}
+
+.content-section4 li{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.content-section4 ul li:last-child{
+    padding-bottom: 50px;
+}
+
+.button-section4{
+    background-color: #1abc9c;
+    padding: 5px 8px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    margin-left: 32px;
+}
