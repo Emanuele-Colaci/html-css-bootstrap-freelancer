@@ -46,8 +46,50 @@ body{
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    color: #fff;
 }
 
 .content-section1 img{
-    width: 30vw;
+    width: 50vw;
+}
+
+.content-section1 h2{
+    font-size: 5vw;
+}
+
+.border-star{
+    position: relative;
+}
+
+.border-star i{
+    margin: 0 5px;
+}
+
+.border-star::after{
+    content: '';
+    position: absolute;
+    top: 40%;
+    left: 100%;
+    border-bottom: 3px solid #fff;
+    width: 10vw;
+    border-radius: 3px;
+}
+
+.border-star::before{
+    content: '';
+    position: absolute;
+    top: 40%;
+    right: 100%;
+    border-bottom: 3px solid #fff;
+    width: 10vw;
+    border-radius: 3px;
+}
+
+.content-section1 ul{
+    padding-left: 0;
+}
+
+.content-section1 li{
+    display: inline;
+    font-size: 2vw;
 }
