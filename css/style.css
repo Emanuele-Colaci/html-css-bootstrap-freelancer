@@ -109,8 +109,24 @@ body{
 
 .content-section2 img{
     width: 100%;
+    border-radius: 10px;
 }
 
 /* FINE SECTION 2 */
 
 /* SECTION 3 */
+
+.section3{
+    background-color: #1abc9c;
+    color: #fff;
+}
+
+.content-section3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* FINE SECTION 3 */
+
+/* SECTION 4 */
