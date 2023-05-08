@@ -70,7 +70,7 @@ body{
     position: absolute;
     top: 40%;
     left: 100%;
-    border-bottom: 3px solid #fff;
+    border-bottom: 3px solid;
     width: 10vw;
     border-radius: 3px;
 }
@@ -80,7 +80,7 @@ body{
     position: absolute;
     top: 40%;
     right: 100%;
-    border-bottom: 3px solid #fff;
+    border-bottom: 3px solid;
     width: 10vw;
     border-radius: 3px;
 }
@@ -93,3 +93,24 @@ body{
     display: inline;
     font-size: 2vw;
 }
+
+/* FINE SECTION 1 */
+
+/* SECTION 2 */
+.content-section2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-section2 h2{
+    font-size: 3.5vw;
+}
+
+.content-section2 img{
+    width: 100%;
+}
+
+/* FINE SECTION 2 */
+
+/* SECTION 3 */
