@@ -10,8 +10,17 @@ body{
 
 /* HEADER */
 
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
 .background-header{
     background-color: #2c3e50;
+    height: 50px;
 }
 
 .content-header1{
@@ -126,7 +135,7 @@ body{
 
 /* SECTION 3 */
 
-.section3{
+#section3{
     background-color: #1abc9c;
     color: #fff;
 }
