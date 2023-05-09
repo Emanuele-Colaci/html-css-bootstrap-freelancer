@@ -15,6 +15,10 @@ header{
     height: 60px;
 }
 
+.color-fff a{
+    color: #fff;
+}
+
 .content-header1{
     display: flex;
     justify-content: end;
@@ -160,16 +164,11 @@ header{
 .content-section4 ul li{
     list-style-type: none;
     border-bottom: 0.4px solid grey;
-    color: #5b6976;
 }
 
 .content-section4 li{
     margin-bottom: 10px;
     padding-bottom: 10px;
-}
-
-.content-section4 ul li:last-child{
-    padding-bottom: 50px;
 }
 
 .button-section4{
