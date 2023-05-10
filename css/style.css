@@ -109,6 +109,10 @@ header{
     font-size: 2vw;
 }
 
+.navbar-toggler-icon{
+    filter: invert(1);
+}
+
 /* FINE SECTION 1 */
 
 /* SECTION 2 */
