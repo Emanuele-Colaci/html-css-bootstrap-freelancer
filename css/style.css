@@ -46,6 +46,11 @@ header{
     text-decoration: none;
 }
 
+
+.navbar-toggler-icon{
+    filter: invert(1);
+}
+
 /* FINE HEADER */
 
 /* MAIN */
@@ -65,7 +70,7 @@ header{
 }
 
 .content-section1 img{
-    width: 50vw;
+    width: 200px;
 }
 
 .content-section1 h2{
@@ -107,10 +112,6 @@ header{
 .content-section1 li{
     display: inline;
     font-size: 2vw;
-}
-
-.navbar-toggler-icon{
-    filter: invert(1);
 }
 
 /* FINE SECTION 1 */
